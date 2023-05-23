@@ -1,8 +1,8 @@
 export type PersonalData = {
   name: string;
   lastName: string;
-  birthDate: Date;
-  gender: "male" | "female" | "other" | "prefer not to mention";
+  birthDate: string;
+  gender: "" | "male" | "female" | "other" | "nonmentioned";
   email: string;
   newsletter: boolean;
 };
